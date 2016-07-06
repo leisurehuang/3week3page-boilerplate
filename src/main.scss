@@ -48,23 +48,46 @@ h2 {
   width: 1600px;
 }
 
-#button {
-  width: 260px;
-  height: 70px;
-}
+
 
 #main {
   height: 800px;
   background-image: url('images/hero_image.jpg');
+	background-size:100% 100%;
 }
+
 #main_text {
   color: white;
   padding-top: 300px;
 }
 
+#button_style {
+	margin-right: 30px;
+  width: 260px;
+  height: 70px;
+	border: white 1px solid;
+	background-color: transparent;
+	color: white;
+	font-size: 20px;
+}
+
+
 #misson {
   background-color: white;
 }
+
+#misson_text {
+	color: #333;
+	padding-top: 150px;
+}
+
+#misson_subtext {
+	font-size: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
 
 #students {
   background-color: rgb(147,207,177);
