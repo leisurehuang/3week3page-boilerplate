@@ -37,6 +37,23 @@ nav > ul > li > a {
 footer {
 	text-align: center;
 }
+
+.colour_white {
+	color: white;
+}
+
+.colour_green {
+	color: rgb(147,207,177);
+}
+
+.colour_yellow {
+	color: rgb(254,204,106);
+}
+
+.colour_blue {
+	color: rgb(129,168,202);
+}
+
 h1 {
 	text-align: center;
 }
@@ -97,6 +114,8 @@ h1 {
 	border: 1px solid rgb(225, 223, 218);
 	border-radius: 10px;
 	margin: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .buttonFrame {
 	padding-top: 20px;
@@ -146,5 +165,10 @@ h1 {
 	width: 50%;
 }
 .text_numbner {
+	font-family: 'Share Tech Mono', ;
 	font-size: 100px;
+}
+
+.subtext_numbner {
+	font-size: 30px;
 }
