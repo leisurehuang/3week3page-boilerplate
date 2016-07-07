@@ -24,68 +24,90 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="blog.html">Apply As Tutor</a></li>
-            <li><a href="shop.html">How It Works</a></li>
-            <li><a href="news.html">Why Education</a></li>
-            <li><a href="news.html">About Us</a></li>
-            <li><a href="news.html">Sign In</a></li>
-        </ul>
-    </nav>
+    <div class="box-shadow" id="container">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blog.html">Apply As Tutor</a></li>
+                <li><a href="shop.html">How It Works</a></li>
+                <li><a href="news.html">Why Education</a></li>
+                <li><a href="news.html">About Us</a></li>
+                <li><a href="news.html">Sign In</a></li>
+            </ul>
+        </nav>
 
-    <div class="row" id="main">
-        <h2 id="main_text">ONLINE TUTORING. ALWAYS FREE AND AVAILABLE.</h2>
-        <div class="buttonFrame">
-            <button class="button button_size" type="button" id="button_style">I'M A STUDENT</button>
-            <button class="button button_size" type="button" id="button_style">I'M A TUTOR</button>
+        <div class="row" id="main">
+            <p class="title" id="main_text">ONLINE TUTORING. ALWAYS FREE AND AVAILABLE.</p>
+            <div class="buttonFrame">
+                <button class="button button_size" type="button" id="button_style">I'M A STUDENT</button>
+                <button class="button button_size" type="button" id="button_style">I'M A TUTOR</button>
+            </div>
+        </div>
+
+        <div class="row" id="misson">
+            <p class="title " id="misson_text">MISSION</p>
+            <p class="subtext_base" id="misson_subtext">The Learn To Be Foundation is on a mission to provide 100% free, 1-on-1, online tutoring to students everywhere.</p>
+            <button class="btn button_size" id="misson_button">Donate</button>
+        </div>
+
+        <div class="row" id="students">
+            <div style="float:left" class="cloum_width">
+                <img src="dist/images/alarm.png" />
+            </div>
+            <div style="float:right" class="cloum_width">
+                <p class="title title_colour_white">STUDENTS</p>
+                <p class="subtext_base subtext_white">We offer students 100% free online tutoring almost 24 hours a day. Struggling with a homework problem? Don't understand a concept you're learning? Don't worry, we've got you.</p>
+                <button class="btn button_size button_alpha button_colour_white" type="button">Start Learning</button>
+            </div>
+        </div>
+
+        <div class="row" id="prospective_tutors">
+            <div style="float:left" class="cloum_width">
+                <p class="title title_colour_white">PROSPECTIVE TUTORS</p>
+                <p class="subtext_base subtext_white">Join Our team of over 600 tutors who are dedicated to providing individualized attention to students around to world. Tutor at your convenience and make a real impact.</p>
+                <button class="btn button_size button_alpha button_colour_white" type="button">Join Us</button>
+            </div>
+            <div style="float:right" class="cloum_width">
+                <img src="dist/images/issues.png" />
+            </div>
+        </div>
+
+        <div class="row" id="partners">
+            <div style="float:left" class="cloum_width">
+                <img src="dist/images/alarm.png" />
+            </div>
+            <div style="float:right" class="cloum_width">
+                <p class="title title_colour_white">PARTNERS</p>
+                <p class="subtext_base subtext_white">We are dedicated to partnering with schools and organizations that help to further our mission of providing individualized online tutoring to kids living in underserved communities</p>
+                <button class="btn button_size button_alpha button_colour_white" type="button">Help Us</button>
+            </div>
+        </div>
+
+        <div class="row" id="our_progress">
+            <p class="title">OUR PROGRESS</p>
+            <div class="col-sm-4">
+                <div class="box-border">
+                    <p class="text_numbner">13,000</p>
+                    <p>Hours Tutored</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="box-border">
+                    <p class="text_numbner">25,000</p>
+                    <p>Sessions Hosted</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="box-border">
+                    <p class="text_numbner">600</p>
+                    <p>Volunteer Tutors</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer_div">
+            <p id="footer_text">@ Lean To Be 2014</p>
         </div>
     </div>
-
-    <div class="row" id="misson">
-        <h2 id="misson_text">MISSION</h2>
-        <p class="subtext_base" id="misson_subtext">The Learn To Be Foundation is on a mission to provide 100% free, 1-on-1, online tutoring to students everywhere.</p>
-        <button class="btn button_size" id="misson_button">Donate</button>
-    </div>
-
-    <div class="row" id="students">
-        <h2>STUDENTS</h2>
-        <p class="subtext_base" >We offer students 100% free online tutoring almost 24 hours a day. Struggling with a homework problem? Don't understand a concept you're learning? Don't worry, we've got you.</p>
-        <button class="btn button_size button_alpha" type="button">Start Learning</button>
-    </div>
-
-    <div class="row" id="prospective_tutors">
-        <h2>PROSPECTIVE TUTORS</h2>
-        <p class="subtext_base" >Join Our team of over 600 tutors who are dedicated to providing individualized attention to students around to world. Tutor at your convenience and make a real impact.</p>
-        <button class="btn button_size button_alpha" type="button">Join Us</button>
-    </div>
-
-    <div class="row" id="partners">
-        <h2>PARTNERS</h2>
-        <p class="subtext_base" >We are dedicated to partnering with schools and organizations that help to further our mission of providing individualized online tutoring to kids living in underserved communities</p>
-        <button class="btn button_size button_alpha" type="button">Help Us</button>
-    </div>
-
-    <div class="row" id="our_progress">
-        <h2>OUR PROGRESS</h2>
-        <div class="col-sm-4">
-            <h3>13,000</h3>
-            <p>Hours Tutored</p>
-        </div>
-        <div class="col-sm-4">
-            <h3>25,000</h3>
-            <p>Sessions Hosted</p>
-        </div>
-        <div class="col-sm-4">
-            <h3>600</h3>
-            <p>Volunteer Tutors</p>
-        </div>
-    </div>
-    <div class="row" id="footer_div">
-        <p id="footer_text">@ Lean To Be 2014</p>
-    </div>
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')

@@ -1,60 +1,52 @@
 body {
+	margin: 0 auto;
 	text-align: center;
-	background: rgb(68,144,198);
+	background-color: rgb(120,157,159);
 }
-
+#container {
+	min-width: 1200px;
+	max-width: 2048px;
+	margin-left: auto;
+	margin-right: auto;
+}
 nav {
-    background-color: #FFF;
-    margin: 0;
-    overflow: hidden;
+	background-color: #FFF;
+	overflow: hidden;
+	margin-left: -15px;
+	margin-right: -15px;
 }
-
-nav ul{
-  margin: 0;
-  padding: 0;
+nav ul {
+	margin: 0;
+	padding: 0;
 }
 nav ul li {
-  /* This allow us to arrange list items in a row, without using float */
-  display: inline-block;
-  list-style-type: none;
-  color: #333
+	/* This allow us to arrange list items in a row, without using float */
+	display: inline-block;
+	list-style-type: none;
+	color: #333;
 }
 /* Create a style for the first level items */
 nav > ul > li > a {
-  color: gray;
-  background-color:#FFF;
-  display: block;
-  line-height: 2em;
-  padding: 0.5em 0.5em;
-  text-decoration: none;
+	color: gray;
+	background-color: #FFF;
+	display: block;
+	line-height: 2em;
+	padding: 0.5em;
+	text-decoration: none;
 }
-
 footer {
-  text-align: center;
+	text-align: center;
 }
-
 h1 {
-  text-align: center;
+	text-align: center;
 }
-
-h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 64px;
-  margin:0 auto;
-}
-
-
 #main {
-  height: 800px;
-  background-image: url('images/hero_image.jpg');
-	background-size:100% 100%;
+	background-image: url('images/hero_image.png');
+	background-size: 100% 100%;
 }
-
 #main_text {
-  color: white;
-  padding-top: 300px;
+	color: white;
 }
-
 #button_style {
 	margin-right: 20px;
 	border: white 1px solid;
@@ -62,77 +54,97 @@ h2 {
 	color: white;
 	font-size: 20px;
 }
-
-
 #misson {
-  background-color: white;
+	background-color: white;
 }
-
 #misson_text {
 	color: #333;
-	padding-top: 150px;
 }
-
 #misson_subtext {
 	margin-left: 100px;
 	margin-right: 100px;
 }
-
 #misson_button {
 	background-color: rgb(254, 204, 106);
 	color: #000;
 }
-
 #students {
-  background-color: rgb(147,207,177);
+	background-color: rgb(147,207,177);
 }
-
 #prospective_tutors {
-  background-color: rgb(254,204,106);
+	background-color: rgb(254,204,106);
 }
 #partners {
-  background-color: rgb(129,168,202);
+	background-color: rgb(129,168,202);
 }
-
 #our_progress {
-  background-color: white;
+	background-color: white;
 }
-
 #footer_div {
-  height: 100px;
-  background-color: rgb(77,78,88);
+	margin-left: -15px;
+	margin-right: -15px;
+	height: 100px;
+	background-color: rgb(77,78,88);
 }
-
 #footer_text {
-  padding-top: 30px;
-  color: white;
+	padding-top: 30px;
+	color: white;
 }
-
-
+.box-shadow {
+	box-shadow: 0 0 10px 20px gray, 0 0 10px 5px black;
+}
+.box-border {
+	border: 1px solid rgb(225, 223, 218);
+	border-radius: 10px;
+	margin: 20px;
+}
 .buttonFrame {
-  padding-top: 20px;
-  align-content: center;
-  align-self: center;
+	padding-top: 20px;
+	align-content: center;
+	align-self: center;
 }
-
 .row {
-  height: 630px;
+	padding-top: 150px;
+	padding-bottom: 150px;
 }
-
 .button_size {
 	width: 260px;
-  height: 70px;
-	font-size: 18px;
+	height: 70px;
+	font-size: 30px;
 }
-
 .button_alpha {
 	background-color: rgba(96, 96, 96, 0.3);
 }
-
+.button_colour_white {
+	color: white;
+	float: left;
+	margin-left: 80px;
+	margin-bottom: 100px;
+}
+.title {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 64px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+.title_colour_white {
+	color: white;
+	text-align: left;
+	margin-left: 80px;
+}
 .subtext_base {
-	font-size: 20px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 100px;
-	margin-right: 100px;
+	font-size: 30px;
+	margin-bottom: 40px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.subtext_white {
+	color: white;
+	text-align: left;
+}
+.cloum_width {
+	width: 50%;
+}
+.text_numbner {
+	font-size: 100px;
 }
